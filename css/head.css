@@ -203,3 +203,49 @@ p:hover {
   border-radius: 80px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin: 0 8px;
+  min-width: 0; /* important for mobile shrink */
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.search-box img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 600px) {
+  .search-box {
+    width: 95%;
+    padding: 6px 10px;
+  }
+  .search-box input {
+    font-size: 14px;
+  }
+}
+
