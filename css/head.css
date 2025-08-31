@@ -168,7 +168,7 @@ header nav a:hover {
     display: flex;
     position: relative;
   }
-  .search-box {
+  .search-box input {
     width: 55%;
   }
 }
