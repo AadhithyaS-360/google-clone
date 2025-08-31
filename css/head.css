@@ -157,8 +157,9 @@ header nav a:hover {
     display: flex;
     position: relative;
   }
-  .search-box {
-    width: 75%;
+   input[type="text"] {
+    width: 95%;
+    font-size: 14px;
   }
 }
 @media (min-width: 601px) (max-width: 800px) {
